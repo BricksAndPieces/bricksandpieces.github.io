@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Mochiy+Pop+P+One&display=swap");
+
+:root {
+  --bg-color: #323437;
+  --primary-color: #b3b3af;
+  --accent-color: #1db954;
+  --bg-element-color: #646669;
+  --color-transition-duration: 0.25s;
+}
+
+[accent="yellow"] {
+  --accent-color: #e3c45b;
+}
+[accent="blue"] {
+  --accent-color: #738adb;
+}
+[accent="green"] {
+  --accent-color: #1db954;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-color);
+  z-index: -1;
+  transition: color 2s;
+
+  overflow: overlay;
+  scroll-behavior: smooth;
+  scrollbar-color: var(--bg-element-color) transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bg-element-color);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  color: var(--primary-color);
+  font-family: "Inconsolata", monospace;
+  transition: color var(--color-transition-duration);
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2,
+h3 {
+  font-weight: 800;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+p,
+a {
+  font-weight: 500;
+}
+
+a:hover,
+a:hover i {
+  color: var(--accent-color);
+}
+
+i {
+  color: var(--primary-color);
+}
