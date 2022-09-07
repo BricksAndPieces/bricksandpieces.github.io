@@ -93,7 +93,7 @@ import CodeTag from "./components/CodeTag.vue";
           <li>
             <p>
               Built a full-stack web application for a horse barreling startup
-              and moved to a production enviornment
+              and moved to a production environment
             </p>
           </li>
           <li>
