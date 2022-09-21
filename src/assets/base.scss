@@ -83,4 +83,5 @@ a:hover i {
 
 i {
   color: var(--primary-color);
+  transition: color var(--color-transition-duration);
 }
