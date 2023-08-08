@@ -66,9 +66,19 @@ function copyLink() {
   color: var(--bg-element-color);
 }
 
-.tag-copy:hover ~ .tag-copy-indicator,
-.tag-copy-indicator-shown {
-  display: inline;
-  color: var(--accent-color);
+@media (hover: hover) {
+  .tag-copy:hover ~ .tag-copy-indicator,
+  .tag-copy-indicator-shown {
+    display: inline;
+    color: var(--accent-color);
+  }
+}
+
+@media (hover: none) {
+  .tag-copy:active ~ .tag-copy-indicator,
+  .tag-copy-indicator-shown {
+    display: inline;
+    color: var(--accent-color);
+  }
 }
 </style>
