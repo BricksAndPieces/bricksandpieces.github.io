@@ -160,7 +160,7 @@ export const projects = [
 export const education = [
   {
     title: "University of Minnesota - Twin Cities",
-    subtitle: "BS in Data/Computer Science | 2020 - 2024",
+    subtitle: "BS in Computer Science & Minor in Math | 2020 - 2024",
     logo: umnLogo,
     description: [
       "Attended the University of Minnesota - Twin Cities through the PSEO (Post Secondary Enrollment Opportunity) program during my senior year of high school. Enrolled at UMN for college and currently a senior in terms of credits.",
