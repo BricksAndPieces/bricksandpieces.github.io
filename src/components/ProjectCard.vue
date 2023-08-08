@@ -3,6 +3,7 @@ defineProps({
   title: String,
   message: String,
   languages: Array,
+  thumbnail: String,
   githubUrl: String,
   externalUrl: String,
 });
@@ -10,7 +11,7 @@ defineProps({
 
 <template>
   <div class="card">
-    <slot name="image" />
+    <img :src="thumbnail" alt="Project Demo Image" />
 
     <div class="card-message">
       <h3>{{ title }}</h3>
@@ -47,7 +48,7 @@ defineProps({
 
   overflow: hidden;
 
-  :slotted(img) {
+  img {
     width: 100%;
     aspect-ratio: 16/9;
     object-fit: cover;

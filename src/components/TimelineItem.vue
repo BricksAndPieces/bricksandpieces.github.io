@@ -2,6 +2,7 @@
 defineProps({
   title: String,
   subtitle: String,
+  logo: String,
   lastItem: Boolean,
 });
 </script>
@@ -10,7 +11,7 @@ defineProps({
   <div class="container">
     <div class="timeline" :class="{ last: lastItem }">
       <div class="company-icon">
-        <slot name="logo"></slot>
+        <img :src="logo" alt="Logo" />
       </div>
     </div>
     <div class="content">
@@ -53,7 +54,7 @@ defineProps({
       justify-content: center;
       align-items: center;
 
-      :slotted(img) {
+      img {
         width: 46px;
         aspect-ratio: 1/1;
         border-radius: 50%;
