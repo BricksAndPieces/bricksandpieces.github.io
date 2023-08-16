@@ -26,13 +26,14 @@ export const experience = [
     description: [
       "System Architect (Role):",
       [
-        "Engaged as a System Architect to observe architectural decision-making in a large enterprise company",
+        "Engaged as a System Architect to contribute to and analyze architectural decision-making within the claims system",
         "Created a pre-modernization claims process database diagram for documentation purposes",
       ],
       "Cloud Engineer (Innovation Project):",
       [
-        "Built an analytics data pipeline and reporting api for the admin side of a survey website using AWS and terraform",
-        "Utilized SPARQL to query AWS Neptune and provide analytics data to the frontend using API Gateway",
+        "Engaged as a Cloud Engineer to construct the backend for a questionnaire creation website using AWS and terraform",
+        "Built an analytics data pipeline from a S3 bucket to Neptune utilizing Lambda to preprocess FHIR response data",
+        "Utilized SPARQL to query Neptune and provide relevant analytics data to the frontend using API Gateway",
       ],
     ],
   },
@@ -53,7 +54,8 @@ export const experience = [
       [
         "Collaborated within an agile environment to deliver features for a sales platform tailored to medical device companies",
         "Developed an interactive map using the Mapbox API, enabling clients to effortlessly create sales territories and regions",
-        "Implemented the frontend of an @mentions and notifications system, fostering seamless user interactions.",
+        "Employed GeoJSON data for US states / zip codes to visually represent and dynamically animate distinct sales regions",
+        "Implemented the frontend of an @mentions and notifications system, fostering seamless user interactions",
       ],
     ],
   },
@@ -72,7 +74,9 @@ export const experience = [
       [
         "Contributed to a small, agile team, actively engaged in diverse projects for various clients",
         "Consulted for United Health Group, creating and maintaining a medical portal site utilized by doctors",
+        "Worked with Angular and RxJs to create a user-friendly UI that can easily handle asynchronous data using observables",
         "Built and deployed a full-stack web app for a horse barreling startup based on client requirements and feedback",
+        "Utilized CRUD operations to allow users to manage their account details while using JWT tokens for authentication",
       ],
     ],
   },
